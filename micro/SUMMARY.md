@@ -2,15 +2,13 @@
 
 ## 快速开始
 
-* 安装
-* 创建项目
-* 部署&运行
-* 自动化脚本
+* [安装](quick_start/install.md)
+* [创建项目](quick_start/create.md)
+* [服务管理](quick_start/manage.md)
 
 ## 框架结构
 
 * 架构总览
-* 多端口服务
 * thrift格式文件
 * 命名空间
 * 自动加载
@@ -22,11 +20,13 @@
 * 配置加载&重载
 * 读取配置
 
-## 序列化
+## 多端口服务
 
+* 多端口配置
 * Hprose
 * Thrift
 * Swoole
+* 自定义端口服务
 
 ## 服务初始化
 
