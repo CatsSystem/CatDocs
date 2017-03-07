@@ -19,7 +19,12 @@ apt-get install build-essential autoconf libboost-all-dev libtool glib-2.0 bison
 
 ```bash
 ./bootstrap.sh 
-./configure --prefix=/usr/local/thrift --with-boost --with-qt4=no --with-qt5=no --with-csharp=no --with-java=no --with-erlang=no --with-nodejs=no --with-lua=no --with-perl=no --with-dart=no --with-ruby=no --with-haskell=no --with-go=no --with-haxe=no --with-d=no
+./configure --prefix=/usr/local/thrift \
+--with-boost --with-qt4=no --with-qt5=no \
+--with-csharp=no --with-java=no --with-erlang=no \
+--with-nodejs=no --with-lua=no --with-perl=no \
+--with-dart=no --with-ruby=no --with-haskell=no \
+--with-go=no --with-haxe=no --with-d=no
 make
 make install
 ```
