@@ -74,8 +74,8 @@
         * [任务调用](micro/component/task/use.md)
     * 内存缓存
         * [缓存配置](micro/component/cache/config.md)
-        * [加载器定义](micro/component/cache/config.md)
-        * [调用缓存](micro/component/cache/config.md)
+        * [加载器定义](micro/component/cache/cache.md)
+        * [调用缓存](micro/component/cache/use.md)
     * 毫秒级定时器
         * [定时器配置](micro/component/timer/config.md)
         * [定时器定义](micro/component/timer/config.md)
