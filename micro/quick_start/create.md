@@ -7,8 +7,10 @@
 在Shell中调用如下命令创建一个CatMicro项目：
 
 ```bash
-composer create-project cat-sys/cat-micro-app {project_name}
+composer create-project --no-dev cat-sys/cat-micro-app {project_name}
 ```
+
+> 注： 测试阶段请使用 `composer create-project --stability=dev --no-dev cat-sys/cat-micro-app {project_name}`命令安装
 
 其中，`project_name`是项目名称。
 

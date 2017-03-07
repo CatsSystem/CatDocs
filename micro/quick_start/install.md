@@ -1,5 +1,17 @@
 # 安装
 
+## 环境依赖
+
+安装前请先确保您的操作系统中已经安装了如下库或者扩展：
+
+* [hiredis库](https://github.com/redis/hiredis)
+* [thrift库](micro/structure/thrift.md)
+* [swoole扩展](https://github.com/swoole/swoole-src)
+* [swoole_serialize扩展](https://github.com/swoole/swoole_serialize)
+* [phpredis扩展](https://github.com/phpredis/phpredis)
+* [hprose-pecl扩展](https://github.com/hprose/hprose-pecl)
+
+## 安装
 CatMicro支持使用Composer安装，只需在项目目录下创建`composer.json`文件，并写入如下内容：
 
 ```json
